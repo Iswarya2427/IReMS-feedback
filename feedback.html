@@ -1,0 +1,49 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTE: Please add the following <FORM> element to your page.             -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+    
+    <input type=hidden name="orgid" value="00D5i0000011KTr">
+    <input type=hidden name="retURL" value="http://salesforce.com">
+    
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+    <!--  these lines if you wish to test in debug mode.                          -->
+    <!--  <input type="hidden" name="debug" value=1>                              -->
+    <!--  <input type="hidden" name="debugEmail"                                  -->
+    <!--  value="iswarya.b@cognizant.com">                                        -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    Name:<input  id="00N5i00000CuaB8" maxlength="20" name="00N5i00000CuaB8" size="20" type="text" /><br>
+    
+    Phone Number:<input  id="00N5i00000CubdM" maxlength="40" name="00N5i00000CubdM" onkeydown="formatPhoneOnEnter(this, event);" size="20" type="text" /><br>
+    
+    Email Id:<input  id="00N5i00000CubdC" maxlength="80" name="00N5i00000CubdC" size="20" type="text" /><br>
+    
+    <label for="reason">Purpose</label><select  id="reason" name="reason">
+        <option value="">--None--</option>
+        <option value="Feedback">Feedback</option>
+    
+    </select><br>
+    
+    Room Rating: 1<input  id="00N5i00000CuaBI" name="00N5i00000CuaBI" min="1" max="5" type="range" />5<br>
+    
+    Food Rating: 1<input  id="00N5i00000CuaBS" name="00N5i00000CuaBS" min="1" max="5" type="range" />5<br>
+    
+    <label for="description">Description</label><textarea name="description"></textarea><br>
+    
+    <input type="hidden"  id="external" name="external" value="1" /><br>
+    
+    <input type="submit" name="submit">
+    
+    </form>
+    
